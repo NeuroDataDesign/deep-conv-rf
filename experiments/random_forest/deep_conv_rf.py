@@ -4,7 +4,7 @@ from multiprocessing import cpu_count
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-from RerF import fastRerF
+from rerf.RerF import fastRerF
 
 
 class DeepConvRF(object):

@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 
 from dataset import get_subset_data
 from random_forest.deep_conv_rf import DeepConvRF
-from RerF import fastPredict, fastRerF
+from rerf.RerF import fastPredict, fastRerF
 
 RERF_NUM_TREES = 1000
 RERF_TREE_TYPE = "binnedBase"
